@@ -71,7 +71,7 @@ class _SebhaTabState extends State<SebhaTab> {
         vertical: height * 0.03,
       ),
       decoration: BoxDecoration(
-        color: const Color(0xffC8B395),
+        color: Theme.of(context).colorScheme.secondary,
         borderRadius: BorderRadius.circular(height * 0.03),
       ),
       child: Text(
@@ -93,7 +93,7 @@ class _SebhaTabState extends State<SebhaTab> {
           vertical: height * 0.01,
         ),
         decoration: BoxDecoration(
-          color: const Color(0xffB7935F),
+          color: Theme.of(context).colorScheme.primary,
           borderRadius: BorderRadius.circular(height * 0.05),
         ),
         child: Text(
